@@ -1,0 +1,117 @@
+.poll-account
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 80px;
+  left: 80%;
+  line-height: 100%;
+  margin-left: -49px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 101;
+  white-space: nowrap;
+  /*border: 1px solid black;*/
+}
+
+.poll-account, 
+.poll-account a, 
+.poll-account a:link, 
+.poll-account a:visited, 
+.poll-account a:hover
+{
+font-size: 13px;
+font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+.poll-account a{color: #fff; font-weight: bolder; }
+div .errors{
+border: 1px solid #FF3247;
+}
+
+.aspirant{
+	/*float:left;*/ min-width:120px; border:1px solid black; margin: 2px; text-align:center;
+	border-radius: 5px;	display: inline-block;}
+
+.tick{
+	/*background-color: #9EFFFF;*/
+	background-color: #D3E3F2;
+	background-image: url('../images/dialog-apply.png');
+	background-position: bottom right; 
+	background-repeat: no-repeat;
+	font-weight: bolder;
+	color: #000C51;
+}
+
+
+
+.position{
+border-bottom: 1px solid black;
+min-height: 160px; display: block;
+/*clear:both;*/
+}
+
+#login_div{
+	min-height: 150px;
+	margin:0 0 0 0 auto;
+	padding-top: 30px;
+}
+
+#tblVoters thead, #resultNav{
+	background: #91BBFF;
+	padding: 15px;
+}
+
+#resultNav{
+	height:20px;
+	/*width:100%;*/
+}
+
+
+.clearFloat{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+/*tr:nth-child(even){background:white;}*/
+.fancy_table td, .fancy_table  th{
+	padding:5px;
+}
+
+.fancy_table th{
+	text-align: left;
+	background:#0087c1;
+}
+
+.fancy_table tr:nth-child(odd){background:rgba(224,224,224, .9);}
+
+.input-table td, .input-table th{
+padding:10px;
+}
+
+.input-table thead, .input-table  tfoot{
+	/*background-color: #00CDFA;*/
+	background-color:#C0C0C0;
+}
+
+.input-table {
+	min-width: 50%;
+	margin: 20px;
+}
+
+
+
+
+
+	
+
+
+
+

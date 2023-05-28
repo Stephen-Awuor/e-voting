@@ -1,0 +1,131 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.poll-header, #poll-header-bg, .poll-layout-cell, .poll-layout-wrapper, .poll-footer, .poll-nav, #poll-hmenu-bg, .poll-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.poll-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.poll-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#poll-header-bg 
+{
+   display: none;
+}
+
+.poll-content-layout, .poll-content-layout-row, .poll-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.poll-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.poll-vmenu, ul.poll-vmenu ul, ul.poll-vmenu li{
+   zoom: 1;
+}
+
+ul.poll-vmenu ul 
+{
+}
+
+ul.poll-vmenu li li a {
+   float: left;
+}
+ul.poll-vmenu li li, ul.poll-vmenu li li ul {
+   clear: both;
+}
+ul.poll-vmenu li li:hover {
+   float: left;
+   z-index: 10;
+}
+ul.poll-vmenu li li.active {
+   float: left;
+   z-index: 9;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.poll-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.poll-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.poll-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.poll-postheadericons span{
+   zoom: 1;
+}
+.poll-postcontent {
+   height: 1%;
+}
+
+.poll-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.poll-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='poll-sidebar1-bg' + (className.indexOf('poll-sidebar1-fix') == -1 ? '' : ' poll-sidebar1-bg-fix' ));
+}
+
+.poll-sidebar1-bg 
+{
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 25%;
+   overflow:hidden;
+   display:block;
+   background-color: #DADCDD;
+}
+
+.poll-content 
+{
+   width: auto;
+   float:none;
+}
+

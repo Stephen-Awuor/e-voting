@@ -1,0 +1,208 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive .poll-content-layout img,
+.responsive .poll-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .poll-content-layout img 
+{
+   float: none !important;
+}
+    
+.responsive .poll-content-layout .poll-sidebar0, 
+.responsive .poll-content-layout .poll-sidebar1, 
+.responsive .poll-content-layout .poll-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .poll-content-layout, 
+.responsive .poll-content-layout-row, 
+.responsive .poll-layout-cell 
+{
+   display: block;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto;
+}
+
+.responsive.responsive-tablet .poll-vmenublock,
+.responsive.responsive-tablet .poll-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .poll-responsive-embed 
+{
+   position: relative;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+	height: 0;
+}
+
+.responsive .poll-responsive-embed iframe,
+.responsive .poll-responsive-embed object,
+.responsive .poll-responsive-embed embed
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.responsive .poll-header 
+{
+   width: auto;
+   height: auto;
+   min-height: 100px;
+   min-width: 1%;
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+.responsive .poll-header .poll-headline, 
+.responsive .poll-header .poll-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+}
+    
+.responsive .poll-header .poll-headline a, 
+.responsive .poll-header .poll-slogan 
+{
+   white-space: normal !important;
+}
+  
+.responsive .poll-header *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.responsive .poll-header #poll-flash-area,
+.responsive .poll-header .poll-shapes>*
+{
+   display: none;
+}
+
+.responsive #poll-header-bg 
+{
+   background-position: center center !important;
+   background-size: cover !important;
+   background-repeat: repeat !important;
+}
+
+/* Search and other elements in header element directly */
+.responsive .poll-header>.poll-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .poll-header>.poll-textblock>div 
+{
+   width: 100%;
+}
+.responsive .poll-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#poll-resp {
+   display: none;
+}
+
+@media all and (max-width: 899px)
+{
+    #poll-resp, #poll-resp-t { display: block; }
+    #poll-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #poll-resp, #poll-resp-m { display: block; }
+    #poll-resp-t { display: none; }
+}
+
+.responsive .poll-content-layout, 
+.responsive .poll-content-layout-row, 
+.responsive .poll-layout-cell 
+{
+   display: block;
+}
+
+.responsive .poll-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+   border-right-width: 0 !important;
+   border-left-width: 0 !important;
+   border-radius: 0 !important;
+}
+
+.responsive .poll-content-layout:after, 
+.responsive .poll-content-layout-row:after, 
+.responsive .poll-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .poll-post
+{
+   border-radius: 0;
+}
+
+.responsive .poll-footer-inner
+{
+   min-width: 0;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+

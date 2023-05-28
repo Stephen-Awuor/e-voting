@@ -1,0 +1,36 @@
+<h2 class="poll-slogan" data-left="99.29%">Login</h2>
+
+
+
+.poll-slogan
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 80px;
+  left: 99.29%;
+  line-height: 100%;
+  margin-left: -49px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 101;
+  white-space: nowrap;
+}
+
+.poll-slogan, 
+.poll-slogan a, 
+.poll-slogan a:link, 
+.poll-slogan a:visited, 
+.poll-slogan a:hover
+{
+font-size: 13px;
+font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: #091B2A !important;
+}
