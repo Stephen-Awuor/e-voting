@@ -19,7 +19,7 @@
 	}
 	function isRegNo($string){
 		$student = false;
-		if( preg_match("[/]",$string) || preg_match("[-]",$string)){
+		if( preg_match("[-]",$string)){
 			$student = true;
 		}
 		return $student;
